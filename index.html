@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Johan Luna</title>
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="theme-color" content="#16db93 ">
+    <link rel="icon" href="img/iconowep2.ico">
+    
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Johan</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>JOHAN LUNA</h1>
+            <h2>Tecnico en sistemas - Experto Redes y seguridad informatica</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/johan.e.parrado" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=573209575727&text=Hola%20como%20estas?"target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Johan.</span> 
+                Técnico en sistemas con más de 9 años de experiencia en el sector de TI. Experto en la instalación, configuración y mantenimiento de sistemas operativos, aplicaciones y redes, con un enfoque en las tecnologías y plataformas más recientes. Resolución de problemas técnicos complejos de forma rápida y efectiva, con un historial demostrado de éxito en la satisfacción de las necesidades de los clientes.
+
+            </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            24-10-1985
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 3209575727
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            tssecuritys@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.tssecurity.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Cl 64 C # 113C-70 Bogota,Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Tecnico en Sistemas</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <a href="https://www.youtube.com/watch?v=hUVFY498KvI" style="color: #ffffff;  text-decoration: none;"target="_blank">JUEGOS</a>
+                        </div>
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <a href="https://open.spotify.com/intl-es/artist/7xeM7V59cA1X8GKyKKQV87" style="color: #ffffff;  text-decoration: none;"target="_blank">MUSICA</a>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-hamburger"></i>
+                            <a href="https://www.kfc.co/" style="color: #ffffff;  text-decoration: none;"target="_blank">COMIDA</a>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <a href="https://www.youtube.com/watch?v=ZRR8KEEuWUI" style="color: #ffffff;  text-decoration: none;"target="_blank">DEPORTES</a>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-clapperboard"></i>
+                            <a href="https://www.netflix.com/browse" style="color: #ffffff;  text-decoration: none;"target="_blank">CINE</a>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-guitar"></i>
+                            <a href="https://www.youtube.com/watch?v=aXyFzWebs5I" style="color: #ffffff;  text-decoration: none;"target="_blank">GUITARRA</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="img/Curriculum Johan.jpg" style="color: #ffffff;  text-decoration: none;"download="CV.jpg" target="_blank">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                </a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Manejo de Linux</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Office 365</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Cableado estructurado</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Manejo de Directoria Activo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Seguridad de la información</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Redes, Infraestructura, CCTV</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>97%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>93%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Puntual</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicado</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>INCAP: Tecnico en sistemas</h4>
+                        <span class="casa">INCAP: Instituto Colombiano de Aprendizaje</span>
+                        <span class="fecha">2009 - 2010</span>
+                        <p>El Técnico en Sistemas del Instituto Colombiano de Aprendizaje (INCAP) es un programa de formación que te prepararo para trabajar en el área de la tecnología de la información. A lo largo del programa, aprenderás los fundamentos de la informática, como la programación, la administración de redes y la seguridad informática.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller</h4>
+                        <span class="casa">Colegio Rembrandt | Educación Primaria y Secundaria</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>El Colegio Rembrandt es una institución de educación privada que ofrece educación básica primaria, secundaria y media. El programa de bachillerato del Colegio Rembrandt está diseñado para preparar a los estudiantes para la universidad y la vida laboral.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Mesa de Ayuda</h4>
+                        <span class="casa">AUTORIDAD NACIONAL DE LICENCIAS AMBIENTALES ANLA</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <p>En mi tiempo en la empresa, optimicé la colaboración como administrador de Office 365 y Active Directory, asegurando cuentas seguras y recursos. Proporcioné soporte técnico, estabilizando el entorno informático. Lideré la mejora de comunicaciones con sistemas Polycom y contribuí a la gestión documental. Mi enfoque versátil impulsó la eficiencia y la comunicación en la empresa</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Tecnico en Sistemas</h4>
+                        <span class="casa">DIRECCION ANTINARCOTICOS POLICIA NACIONAL</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <p>En mi rol en la Dirección Antinarcóticos de la Policía, proporcioné soporte técnico, generé
+                            informes y administre sistemas de impresión en Catam y Dorado. Resolví desafíos
+                            técnicos en tiempo real, mejorando la eficiencia y garantizando continuidad operativa.
+                            Implementé soluciones y generé informes para decisiones, además de administrar
+                            sistemas de forma remota para minimizar inactividad. Participé en facturación y gestión,
+                            asegurando registro meticuloso de servicios.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Técnico en telecomunicaciones</h4>
+                        <span class="casa">TSSECURITY S.A.S</span>
+                        <span class="fecha">2011 - 2014</span>
+                        <p>En TSSECURITY S.A.S. (2011-2014), como Profesional de Seguridad Informática, lideré la
+                            integración de sistemas de seguridad, cableado estructurado, controles de acceso y
+                            domótica. Mi enfoque aseguró la protección integral de la infraestructura tecnológica
+                            empresarial y demostró mi compromiso con la excelencia en seguridad informática.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Docente</h4>
+                        <span class="casa">COLEGIO MAYOR DE ENGATIVA</span>
+                        <span class="fecha">2015 - 2018</span>
+                        <p>Profesor de Sistemas, Música, y Matemáticas Impartí clases en sistemas, música y
+                            matemáticas a estudiantes de séptimo y octavo grado. Dirigí el curso de séptimo y
+                            octavo grado, optimizando el ambiente de aprendizaje. Implementé métodos didácticos
+                            creativos para mejorar la comprensión de conceptos. Facilité proyectos musicales,
+                            fomentando la creatividad y habilidades artísticas. Mejoré resultados de matemáticas
+                            con enfoques pedagógicos efectivos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>Sistemas de Seguridad</h3>
+                        <p>CCTV</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/domotica (2).jpg" alt="">
+                    <div class="overlay">
+                        <h3>Casas Inteligentes</h3>
+                        <p>Domotica</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/cableado-estructurado-930x616.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Cableado Estructurado</h3>
+                        <p>Alta Velocidad</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/cerca-coche-electrico-francia.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Control de Acceso</h3>
+                        <p>intrucciones</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/ingeniero-civil-trabajador-construccion-arquitectos-que-usan-cascos-chalecos-seguridad-estan-trabajando-juntos-sitio-construccion-construyendo-casa-concepto-trabajo-equipo-cooperacion.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Obra Civil</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/hacker-femenina-su-equipo-ciber-terroristas-creando-virus-peligroso-atacar-al-gobierno.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Seguridad Informatica</h3>
+                        <p>Linux</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form action="https://formspree.io/f/meqbrdlb" method="POST">
+                        <input type="text" placeholder="name" name="name">
+                        <input type="text" placeholder="phone" name="phone">
+                        <input type="text" placeholder="email" name="email">
+                        <input type="text" placeholder="subject" name="subject">
+                        <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Message"></textarea>
+                        <button type="submit">
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html#contacto">
+                        <input type="hidden" name="_captchat" value="false">
+                    </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Cl 64C #113C-70 Bogota,Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +57 3209575727 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: tssecuritys@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+                <a href="https://www.facebook.com/johan.e.parrado" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=573209575727&text=Hola%20como%20estas?"target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Boton Flotante - WhatsApp</title>
+  <link rel="stylesheet" href="estilos.css">
+  <!--Icon-Font-->
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LMX3YS3C9R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LMX3YS3C9R');
+</script>
+
+
+<body>
+	<a href="https://api.whatsapp.com/send?phone=573209575727&text=Hola%20como%20estas?
+" class="btn-wsp" target="_blank">
+	    <i class="fa fa-whatsapp icono"></i>
+	</a>
+
+<style>
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#16db93 ;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #16db93 ;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
+</style>
+</body>
+</html>
+
+</html>
